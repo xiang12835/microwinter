@@ -59,3 +59,20 @@ node install
 node web.js
 http://localhost:3000/static/index.html
 ```
+
+## h5
+
+>框架
+
+- vue
+- vant
+- axios
+
+>启动
+
+```shell
+cd h5
+npm install
+npm run dev
+http://localhost:5000
+```
