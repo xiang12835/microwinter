@@ -1,7 +1,18 @@
-# node-platform
+# winter-cloud
 
 
 ## app
+
+>功能
+
+- 小程序后台管理系统（进行中）
+- 小程序商城后端接口
+
+>环境
+
+- nodejs
+- mysql
+- redis
 
 >框架
 
