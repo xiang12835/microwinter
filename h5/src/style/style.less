@@ -1,0 +1,284 @@
+/*---------basic settings----------*/
+a,
+a:active,
+input,
+button,
+select,
+map area,
+textarea {
+  outline: 0;
+  color: #333;
+  cursor: pointer;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  -webkit-appearance: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.viewport, html body {
+  min-width: 320px;
+}
+* {
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+html {
+  font-size: 20px;
+  color: #666;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+html body {
+  height: 100%;
+  font-size: .55rem;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  max-width: 750px;
+  margin: 0 auto;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+img {
+  border: none;
+  vertical-align: middle;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+em,
+b {
+  font-style: normal;
+  font-weight: normal;
+}
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none!important;
+  margin: 0;
+}
+.viewport,
+.clear:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #ccc;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #ccc;
+}
+ul {
+  list-style-type: none;
+}
+.flex-column {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.flex-row {
+  display: -webkit-flex;
+  display: flex;
+}
+.flex {
+  -webkit-flex: 1;
+  flex: 1;
+}
+.after {
+  position: relative;
+  &:after {
+    content: "";
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+}
+.before {
+  position: relative;
+  &:after {
+    content: "";
+    border-top: 1px solid #ccc;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+}
+.nomore{
+  width: 18.75rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 2rem;
+}
+.infinite-status-prompt{
+  color: #ccc;
+}
+.footer {
+  z-index: 99;
+  width: 18.75rem;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -9.375rem;
+  height: 2.4rem;
+  box-shadow: 0 -0.05rem 0.05rem #dbdbdb;
+  background-color: #fff;
+}
+.footer.noshadow {
+  box-shadow: 0 0 0 transparent;
+}
+.footer.noshadow:before {
+  width: 100%;
+  top: 0;
+  border-top: .05rem solid #ECECED;
+  position: absolute;
+  left: 0;
+  content: "";
+}
+.footer .flex a {
+  display: block;
+  text-align: center;
+  padding: .2rem;
+  height: 2.4rem;
+}
+.footer .flex a img {
+  width: 1.2rem;
+}
+.footer .flex a span {
+  display: block;
+  font-size: .6rem;
+  color: #294058;
+  text-align: center;
+  width: 100%;
+  line-height: .8rem;
+}
+.footer .flex a.active span {
+  color: #4D7CFB;
+}
+#bqmask, .bq-mask {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .45;
+  top: 0;
+  left: 0;
+}
+.bq-mask {
+  display: none;
+  height: 100%;
+}
+.hide {
+  display: none;
+}
+
+#bqloadingmask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+}
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg) translateZ(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0);
+  }
+}
+input, button {
+  background-color: transparent;
+  border: 0;
+}
+.slide-enter-active {
+  animation-name: slideInUp;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+.slide-leave-active {
+  animation-name: slideOutDown;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+@keyframes slideInUp {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translateZ(0);
+  }
+}
+@keyframes slideOutDown {
+  0% {
+    transform: translateZ(0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  }
+}
