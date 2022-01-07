@@ -65,7 +65,13 @@ http://localhost:3000/static/index.html
 >框架
 
 - vue
+
+https://cn.vuejs.org/
+
 - vant
+
+https://youzan.github.io/vant/#/zh-CN/
+
 - axios
 
 >启动
@@ -76,3 +82,13 @@ npm install
 npm run dev
 http://localhost:5000
 ```
+
+
+## mini
+
+>框架
+
+- vant
+
+https://youzan.github.io/vant-weapp/#/home
+
