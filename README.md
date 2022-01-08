@@ -5,7 +5,6 @@
 
 >功能
 
-- 小程序后台管理系统（进行中）
 - 小程序商城后端接口
 
 >环境
@@ -30,9 +29,20 @@ http://localhost:1000/
 
 ## api
 
+>功能
+
+- 基于 hapi 的 Node.js 小程序后端开发
+
+>环境
+
+- nodejs
+- mysql
+
 >框架
 
 - hapi
+- Swagger
+- Sequelize
 
 >启动
 
@@ -44,7 +54,41 @@ http://127.0.0.1:2000/documentation
 ```
 
 
+## admin
+
+>功能
+
+- 后台管理系统
+
+>环境
+
+- nodejs
+
+>框架
+
+- vue
+- element-ui
+- axios
+
+>启动
+
+```shell
+cd admin
+npm install
+npm run dev
+open http://localhost:8081
+```
+
+
 ## web
+
+>功能
+
+- 后台管理系统
+
+>环境
+
+- nodejs
 
 >框架
 
@@ -60,7 +104,16 @@ node web.js
 http://localhost:3000/static/index.html
 ```
 
+
 ## h5
+
+>功能
+
+- H5 模版
+
+>环境
+
+- nodejs
 
 >框架
 
@@ -74,6 +127,8 @@ https://youzan.github.io/vant/#/zh-CN/
 
 - axios
 
+https://github.com/axios/axios
+
 >启动
 
 ```shell
@@ -86,9 +141,21 @@ http://localhost:5000
 
 ## mini
 
+>功能
+
+- mini 模版
+
+>环境
+
+- 微信小程序开发工具
+
 >框架
 
 - vant
 
 https://youzan.github.io/vant-weapp/#/home
+
+>启动
+
+导入微信小程序开发工具启动
 
