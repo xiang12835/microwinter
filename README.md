@@ -15,7 +15,8 @@
 
 >框架
 
-- koa
+- Koa
+- Sequelize
 
 >启动
 
@@ -40,7 +41,7 @@ http://localhost:1000/
 
 >框架
 
-- hapi
+- Hapi
 - Swagger
 - Sequelize
 
@@ -66,9 +67,9 @@ http://127.0.0.1:2000/documentation
 
 >框架
 
-- vue
-- element-ui
-- axios
+- Vue
+- Element-ui
+- vue-axios
 
 >启动
 
@@ -92,8 +93,9 @@ open http://localhost:8081
 
 >框架
 
-- koa
-- vue
+- Koa
+- Vue
+- Bootstrap
 
 >启动
 
@@ -117,17 +119,17 @@ http://localhost:3000/static/index.html
 
 >框架
 
-- vue
+- Vue
 
 https://cn.vuejs.org/
 
-- vant
+- Vant
 
 https://youzan.github.io/vant/#/zh-CN/
 
-- axios
+- vue-axios
 
-https://github.com/axios/axios
+https://www.npmjs.com/package/vue-axios
 
 >启动
 
@@ -151,7 +153,7 @@ http://localhost:5000
 
 >框架
 
-- vant
+- Vant
 
 https://youzan.github.io/vant-weapp/#/home
 
