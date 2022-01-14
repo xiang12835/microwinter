@@ -16,6 +16,7 @@
 >框架
 
 - Koa
+- art-template | koa-art-template
 - Sequelize
 
 >启动
@@ -69,7 +70,7 @@ http://127.0.0.1:2000/documentation
 
 - Vue
 - Element-ui
-- vue-axios
+- axios | vue-axios
 
 >启动
 
@@ -127,7 +128,7 @@ https://cn.vuejs.org/
 
 https://youzan.github.io/vant/#/zh-CN/
 
-- vue-axios
+- axios | vue-axios
 
 https://www.npmjs.com/package/vue-axios
 
