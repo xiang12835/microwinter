@@ -102,7 +102,7 @@ open http://localhost:8081
 
 ```shell
 cd web
-node install
+npm install
 node web.js
 http://localhost:3000/static/index.html
 ```
