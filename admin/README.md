@@ -1,5 +1,7 @@
 # jiayou-admin
 
+vue2 + element-ui + axios
+
 ## Build Setup
 
 ```bash

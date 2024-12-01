@@ -68,9 +68,7 @@ http://127.0.0.1:2000/documentation
 
 >框架
 
-- Vue
-- Element-ui
-- axios | vue-axios
+vue2 + element-ui + axios
 
 >启动
 
