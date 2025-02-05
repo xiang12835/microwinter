@@ -23,6 +23,7 @@ module.exports = db.define("goods_info",
   }
 }
 ,{
+  underscored: true, // 启用下划线命名法
   freezeTableName:true,
   timestamps:true
 });

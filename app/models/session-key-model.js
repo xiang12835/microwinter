@@ -26,6 +26,7 @@ module.exports = db.define('session_key', {
     allowNull: false
   }
 },{
+  underscored: true, // 启用下划线命名法
 	freezeTableName: true, 
   timestamps: true
 })

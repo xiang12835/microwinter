@@ -1,7 +1,8 @@
 const Sequelize = require(  'sequelize')
 const config = require( '../config/mysql-config' )
+const configLocal = require( '../config/mysql-config-local' )
 
-const db = new Sequelize(config)
+const db = new Sequelize(configLocal)
 // 测试连接
 db
   .authenticate()

@@ -36,6 +36,7 @@ module.exports = db.define('user', {
     allowNull: false
   }
 },{
+  underscored: true, // 启用下划线命名法
 	freezeTableName: true, 
   timestamps: true
 })

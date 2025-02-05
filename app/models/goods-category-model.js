@@ -14,6 +14,7 @@ module.exports = db.define("goods_category",{
   }
 },{
   tableName:"goods_category",
+  underscored: true, // 启用下划线命名法
   freezeTableName:true,
   timestapms:true //createdAt、updatedAt
 });
