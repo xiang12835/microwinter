@@ -1,8 +1,8 @@
 const Sequelize = require(  'sequelize')
-const config = require( '../config/mysql-config' )
-const configLocal = require( '../config/mysql-config-local' )
+const config = require( '../config/mysql-config')               // 线上数据库
+const configLocal = require( '../config/mysql-config-local')    // 本地数据库
 
-const db = new Sequelize(configLocal)
+const db = new Sequelize(config)
 // 测试连接
 db
   .authenticate()
